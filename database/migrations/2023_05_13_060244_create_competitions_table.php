@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('competitions', function (Blueprint $table) {
             $table->id();
-            $table->string('event_name');
+            $table->string('sport_type');
             $table->string('matching_team');
 
             // relationship between competition and event 
